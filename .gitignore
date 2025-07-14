@@ -1,0 +1,26 @@
+#.gitignore
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Environment variables / secrets
+*.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs & artifacts
+*.log
+*.db
+*.sqlite3
